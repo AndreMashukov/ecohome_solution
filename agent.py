@@ -55,8 +55,7 @@ Context rules:
   dryer: 3.0 kWh/cycle, pool pump: 1.5 kWh per hour for 6 hours,
   HVAC: 2.0 kWh per hour.
 - Combine devices into one coordinated schedule when the user names more than one load.
-- Answer the question first, then give 2-3 numbered actions with hours, rates, and
-  estimated dollars. Keep units consistent (kWh, USD, C/F).
+- Keep units consistent (kWh, USD, C/F).
 - Only call the tools needed for the question. Do not call every tool.
   Savings questions need prices plus calculate_energy_savings.
   Scheduling questions need weather plus prices.
@@ -65,6 +64,22 @@ Context rules:
   continue with clear best-practice advice. Do not invent meter readings.
 - Never claim you ran a tool if you did not. Prefer calling tools over guessing.
 - Always produce a final written answer after tool results. Do not stop on an empty message.
+
+Answer format (relevance):
+- Sentence 1 must directly answer the asked question: the hours, setpoint, dollar
+  amount, or the three actions. Do not open with background, weather dumps, or
+  a full 24-hour rate table.
+- Stay on the devices and constraints in the question. Do not add unrelated
+  appliances or a second scenario.
+- After the direct answer, give 2-3 numbered actions with hours, rates, and
+  estimated dollars. Keep the whole reply under 180 words unless the user asked
+  to schedule several devices at once.
+
+Conversation memory:
+- Use earlier turns. If the user says "it", "the car", or omits a device, reuse
+  the last named device, location, and constraints (for example "no charging
+  4-9 PM").
+- Do not re-ask for facts already given in this conversation.
 """
 
 
@@ -192,6 +207,18 @@ class Agent:
                             "Additional household context for this request: "
                             f"{context}. Use this location for weather tools and "
                             "personalize device advice when possible."
+                        ),
+                    )
+                )
+            if self.history:
+                messages.append(
+                    (
+                        "system",
+                        (
+                            "This is a follow-up. Reuse devices, constraints, and "
+                            "location from earlier turns. Resolve pronouns such as "
+                            "'it' from conversation history. Answer the new question "
+                            "directly; do not restart with a generic intro."
                         ),
                     )
                 )
