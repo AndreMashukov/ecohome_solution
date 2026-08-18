@@ -1,0 +1,57 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# ---- Virtual Environments ----
+.env
+.venv/
+venv/
+env/
+
+# ---- Credentials & Config ----
+*.env
+.env.*
+!.env.example
+.envrc
+secrets.json
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Logs, Outputs & Temp Files ----
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# ---- MLFlow ----
+mlruns/
+mlflow.db
+
+# ---- RAG / Vector DB cache outside the project data folder ----
+chroma/
+chroma.db
+index/
+
+# ---- Cache ----
+.cache/
+**/.cache/
+
+# ---- OS / Editor Files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+
+# ---- Test Artifacts ----
+coverage.xml
+htmlcov/

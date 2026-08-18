@@ -1,0 +1,25 @@
+Smart Home Automation Tips
+
+Home automation is most useful when it follows electricity prices, occupancy, and solar output instead of a fixed clock.
+
+Thermostats and occupancy:
+- Geofencing can set an away mode when nobody is home and recover before arrival.
+- Occupancy sensors should not fight the HVAC schedule. Use a 15-30 minute delay before changing modes.
+- Sleep schedules should pre-condition the house before peak rates, then relax setpoints overnight.
+
+Appliance and EV automations:
+- Put dishwashers, washers, dryers, and EV chargers on delayed start. Trigger them at off-peak rates or when solar export is high.
+- A typical dishwasher cycle uses about 1.2-1.8 kWh. Moving it from 6-8 PM peak to overnight off-peak can cut the cycle cost by 40-60% on time-of-use rates.
+- EV charging should finish just before departure. Overnight off-peak plus midday solar is usually cheaper than 4-9 PM charging.
+- Smart plugs can cut phantom load from TVs, game consoles, and chargers when the home is asleep.
+
+Lighting and water:
+- Occupancy lighting and dimming reduce wasted lighting energy.
+- Hot water recirculation pumps should run in short occupied windows, not 24 hours.
+- Leak alerts on water heaters and washing machines prevent hidden energy and water waste.
+
+Control rules that work well:
+- If solar irradiance is high and prices are mid-peak, run flexible loads now.
+- If prices are on-peak and solar is low, delay flexible loads.
+- If outdoor temperature is extreme, pre-heat or pre-cool before the price spike.
+- Keep a manual override. Automation should never strand an EV below the needed charge.

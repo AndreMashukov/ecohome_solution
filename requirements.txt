@@ -1,0 +1,35 @@
+# Vector DB + HTTP
+chromadb>=0.6.3
+httpx>=0.28.1
+requests>=2.31.0
+
+# Jupyter
+ipykernel>=6.30.0
+jupyterlab>=4.2.5
+nbformat>=5.10.0
+nbclient>=0.10.0
+
+# LangChain & ecosystem
+langchain>=0.3.27,<1.0.0
+langchain-core>=0.3.72,<1.0.0
+langchain-community>=0.3.9,<0.4.0
+langchain-openai>=0.3.28,<1.0.0
+langchain-chroma>=0.2.6,<1.0.0
+langchain-text-splitters>=0.3.0,<1.0.0
+
+# LangGraph
+langgraph>=0.5.4,<1.0.0
+
+# Data + DB
+pandas>=2.2.3
+sqlalchemy>=2.0.41
+
+# Env handling
+python-dotenv>=1.1.1
+
+# RAG evaluation
+ragas>=0.2.14
+
+# OpenAI client + PDF support
+openai>=1.60.0
+pypdf>=4.0.0

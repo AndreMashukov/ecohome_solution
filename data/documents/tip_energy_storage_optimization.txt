@@ -1,0 +1,24 @@
+Energy Storage Optimization
+
+A home battery is most valuable when it stores cheap or solar energy and discharges during expensive peak hours.
+
+Charge and discharge windows:
+- Charge from rooftop solar first. If solar is not enough, charge from the grid only in off-peak hours, usually late night to early morning.
+- Discharge during on-peak windows, often 4 PM to 9 PM on weekdays, to cover HVAC, cooking, and lighting.
+- Keep a reserve, commonly 20-30%, for outages unless a storm is not expected.
+
+Pairing storage with solar and EVs:
+- Do not charge the EV and the house battery from the grid at the same time during mid-peak or on-peak rates.
+- If the EV can wait until overnight, let the house battery serve the evening peak and charge the car later.
+- On a sunny weekend, fill the battery by mid-afternoon, then run the pool pump and laundry from solar instead of draining the battery too early.
+
+Sizing the opportunity:
+- Shifting 10 kWh from on-peak ($0.33/kWh) to off-peak ($0.13/kWh) saves about $2.00 that day, or roughly $50-70 per month if repeated on weekdays.
+- A battery used only to back up rare outages has a weaker bill ROI than a battery that cycles on time-of-use rates every weekday.
+- Round-trip efficiency is often 85-90%. Include that loss when comparing solar self-consumption vs export.
+
+Operating rules:
+- Avoid frequent tiny cycles that add wear without reducing peak import.
+- Update the schedule when the utility changes peak hours.
+- During multi-day cloudy weather, prioritize off-peak grid charging over waiting for weak solar.
+- If a heat wave is forecast, pre-charge the battery the night before so evening air conditioning does not buy high-price grid power.

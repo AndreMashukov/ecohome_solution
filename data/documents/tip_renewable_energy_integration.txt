@@ -1,0 +1,24 @@
+Renewable Energy Integration
+
+Homes with rooftop solar save the most when flexible loads follow the sun and remaining grid use stays in off-peak windows.
+
+Self-consumption first:
+- Midday solar is usually strongest from about 10 AM to 3 PM on clear days. Shift EV charging, pool pumps, dishwashers, and laundry into that window when people are home.
+- Cloudy and rainy hours cut solar yield sharply. On those days, prefer overnight off-peak grid charging instead of waiting for weak midday sun.
+- Compare forecast irradiance with recent generation history. If yesterday produced little energy under similar clouds, do not count on a large surplus today.
+
+Inverters, export, and interconnection:
+- Many utilities pay less for exported solar than they charge for imported energy. Using solar on-site is usually more valuable than exporting it.
+- Avoid running large loads after sunset unless rates are off-peak. After 4 PM, solar is falling while residential prices often rise.
+- Keep panels clean enough that soiling does not become obvious. Heavy dust or pollen can reduce output by 5-15%.
+- Trim shade from trees on the south and west roof edges where allowed.
+
+Coordinating solar with devices:
+- EV: charge during high-irradiance hours if the car is parked at home, otherwise charge overnight off-peak.
+- HVAC: pre-cool with solar-powered air conditioning before late-afternoon peak prices.
+- Pool pump: run the main filtration cycle during the sunniest 6-8 hours, then idle overnight.
+- Water heating: if a heat-pump water heater or timer is available, recover tanks during solar surplus.
+
+Weather-aware planning:
+- A sunny forecast with high irradiance is the best day to do laundry, charge the EV, and run the pool pump.
+- A multi-day cloudy stretch is the time to conserve HVAC and delay optional loads until overnight off-peak.

@@ -1,0 +1,25 @@
+Seasonal Energy Management
+
+Energy use changes with the season. The same device schedule should not be used all year.
+
+Summer:
+- Cooling dominates. Raise daytime setpoints when the house is empty and pre-cool in the late morning if solar is strong.
+- Peak prices often overlap with the hottest hours. Avoid dishwasher, dryer, and EV charging from about 4 PM to 9 PM.
+- Use window shading, attic ventilation, and evening cross-breeze to cut HVAC hours.
+- Pool pumps can run longer on hot sunny days, but still avoid the evening price peak.
+
+Winter:
+- Heating and water heating rise. Lower unused-room setpoints and use a heat-pump's efficient range instead of backup heat.
+- Solar windows are shorter. Do not wait for midday PV if you need EV range in the morning. Overnight off-peak is more reliable.
+- Seal drafts around doors and attic hatches. Air leaks cost more in heating season.
+- Run baths, laundry, and dishwashers during off-peak nights unless there is a clear midday solar surplus.
+
+Spring and fall:
+- These are the best seasons for deep cleaning filters, coils, and dryer vents.
+- Use open-window nights instead of air conditioning when outdoor temperatures allow.
+- Shoulder months are a good time to test battery charge windows and EV schedules before extreme weather.
+
+Weekly seasonal habits:
+- Recheck thermostat schedules when clocks change and when the first heat wave or cold snap arrives.
+- After a heat wave, look at HVAC kWh in the usage history. If cooling cost spiked, add pre-cooling and a higher peak-hour setpoint.
+- After a stormy week, expect lower solar generation and shift flexible loads to overnight off-peak.

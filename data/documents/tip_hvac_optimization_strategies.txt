@@ -1,0 +1,26 @@
+HVAC Optimization Strategies
+
+Heating and cooling often account for 40-50% of home electricity use. Small setpoint changes and better timing can cut cost without a large comfort loss.
+
+Setpoint guidance:
+- In cooling season, start at 78F (25.5C). Each degree higher can save about 3-5% on cooling energy.
+- In heating season, start at 68F (20C). Each degree lower can save about 1-3% on heating energy.
+- During on-peak afternoon prices, raise cooling setpoints to 80-82F (26.5-28C) if people can use fans.
+- If prices spike on a weekday afternoon, pre-cool 1-2 hours before the peak window, then let the setpoint float during the expensive hours.
+
+Equipment and airflow:
+- Replace or clean HVAC filters every 30-90 days. A dirty filter makes the blower work harder and can add 5-15% energy use.
+- Keep outdoor condenser coils clear of leaves and dust. Shade the outdoor unit without blocking airflow.
+- Close unused rooms only if the system is zoned. Closing many vents on a single-zone system can raise duct pressure and waste energy.
+- Seal obvious duct leaks in attics and crawl spaces with mastic. Leaky ducts can lose 20-30% of conditioned air.
+
+Scheduling:
+- Use a programmable or smart thermostat with a weekday/weekend schedule.
+- Shift the heaviest cooling to hours with rooftop solar when the home has PV.
+- Avoid large setpoint swings that cause long recovery cycles during peak prices.
+- For heat pumps, use gradual changes. Large emergency-heat backup use is expensive.
+
+Comfort substitutes:
+- Ceiling fans allow a 4F higher cooling setpoint with similar comfort.
+- Night ventilation and window shading reduce daytime cooling load.
+- Close blinds on sun-facing windows before the hot afternoon peak.
